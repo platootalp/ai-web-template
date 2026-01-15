@@ -1,0 +1,19 @@
+# genAI_master_start
+[project]
+name = "ai-agent-backend-ddd"
+version = "0.1.0"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]",
+  "langchain-core",
+  "langchain-openai",
+  "pydantic>=2.0",
+  "pydantic-settings",
+  "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "pytest",
+]
+# genAI_master_end
