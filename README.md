@@ -105,6 +105,28 @@ web-application-template
 │   ├── vite.config.ts
 │   ├── tsconfig.json
 │   └── package.json
+├── frontend-vue
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   │   └── ChatCard.vue
+│   │   ├── composables
+│   │   │   └── useAgentChat.ts
+│   │   ├── pages
+│   │   │   └── ChatPage.vue
+│   │   ├── services
+│   │   │   └── api.ts
+│   │   ├── types
+│   │   │   └── index.ts
+│   │   ├── App.vue
+│   │   ├── index.css
+│   │   └── main.ts
+│   ├── index.html
+│   ├── postcss.config.cjs
+│   ├── tailwind.config.ts
+│   ├── vite.config.ts
+│   ├── tsconfig.json
+│   └── package.json
 └── README.md
 ```
 
@@ -130,6 +152,14 @@ uv run uvicorn app.main:app --reload
 
 ```
 cd frontend
+npm install
+npm run dev
+```
+
+### 前端（Vue 模板）
+
+```
+cd frontend-vue
 npm install
 npm run dev
 ```

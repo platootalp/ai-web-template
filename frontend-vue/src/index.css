@@ -1,0 +1,11 @@
+/* genAI_master_start */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Inter", "PingFang SC", "Microsoft Yahei", sans-serif;
+  background-color: #020617;
+}
+/* genAI_master_end */
